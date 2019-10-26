@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3883FA",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "天气",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "  "
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
