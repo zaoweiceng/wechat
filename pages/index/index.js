@@ -66,15 +66,15 @@ Page({
       method:'GMT',
       success:(res) => {
         // Console.log(res)
-        if (res.statusCode == 200 && res.data.status == 0){
+        // if (res.statusCode == 200 && res.data.status == 0){
           it.setData({ province: res.data.result.address_component.province });
           it.setData({ city: res.data.result.address_component.city });
           it.setData({ district: res.data.result.address_component.district });
           this.region[0] = province;
           this.region[1] = city;
           this.region[2] = district;
-          console.log(province + " " + city + " " + district);
-        }
+          console.log(province + " " + city + " " + district + " " + region[0]);
+        // }
       }
     })
   },
